@@ -1,0 +1,6 @@
+FROM maven:3.3.9
+
+RUN locale-gen de_DE.UTF-8
+ENV LANG de_DE.UTF-8
+ENV LANGUAGE de_DE.UTF-8
+ENV LC_ALL de_DE.UTF-8
