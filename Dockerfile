@@ -1,4 +1,4 @@
-FROM maven:3.3.9
+FROM maven:3.6.0
 
 # Set the locale
 RUN apt-get clean && apt-get update && apt-get install -y locales 
